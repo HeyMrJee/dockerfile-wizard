@@ -88,5 +88,5 @@ workflows:
           context: org-global
       - test_image:
           context: org-global
-          requires:
-            - build
+  #        requires:
+  #          - build
